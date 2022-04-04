@@ -1,0 +1,174 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+img {
+    display: block;
+}
+
+/* шапка */
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    height: 73px;
+    border-bottom: 1px solid #8ecae6;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.header-container {
+    width: 1110px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1;
+    color: rgb(25, 25, 25);
+}
+
+.nav-link {
+color: black;
+text-decoration: none;
+margin-right: 32px;
+}
+
+.nav-link:hover {
+    color: #457b9d;
+}
+
+.nav-link:last-child {
+margin: 0;
+}
+
+.header-icon {
+    margin-left: auto;
+    display: flex;
+}
+
+.header-icon-item {
+    margin-left: 12px;
+}
+
+.store:first-child {
+    margin-left: 0;
+}
+
+/* основа */
+
+.main {
+   
+}
+.main-conteiner {
+    width: 1110px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.main-content {
+    font-size: 18px;
+    color: black;
+    width: 540px;
+}
+
+.main-h1 {
+margin-top: 0;
+margin-bottom: 16px;
+font-weight: 800;
+font-size: 50px;
+line-height: 1;
+color: black;
+}
+
+.main-text {
+    margin-bottom: 32px;
+}
+
+.main-text p {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.78;
+
+}
+
+.bottom {
+    display: inline-block;
+    height: 62px;
+    background: white;
+    box-sizing: border-box;
+    border: 5px solid #05A2FA;
+    padding-left: 35px;
+    padding-right: 25px;
+    border-radius: 50px;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 62px;
+    text-align: center;
+    color: #05A2FA;
+    text-decoration: none;
+    stroke: #457b9d;
+}
+
+.bottom:hover {
+    opacity: 0.8;
+}
+
+.main-img {
+}
+
+/* подвал */
+
+.footer {
+    height: 72px;
+    background: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    margin: 50px;
+}
+.footer-container {
+    width: 1110px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+    /* padding-top: 197px;
+    padding-bottom: 197px; */
+}
+
+.footer-copy {
+    font-size: 14px;
+}
+ 
+.footer-icon {
+    display: flex;
+}
+
+.footer-icon-item {
+    margin-left: 16px;
+}
