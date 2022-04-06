@@ -1,1 +1,1 @@
-# art-studio
+# ART-STUDIO
