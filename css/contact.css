@@ -94,7 +94,7 @@ margin: 0;
 }
 
 .address {
-    display: inline-block;
+    display: flex;
     height: 62px;
     background: white;
     box-sizing: border-box;
@@ -108,6 +108,8 @@ margin: 0;
     text-align: center;
     color: #05A2FA;
     text-decoration: none;
+    margin: 10px;
+    justify-content: center;
 }
 
 .address:hover {
@@ -116,7 +118,7 @@ margin: 0;
 }
 
 .phone {
-    display: inline-block;
+    display: flex;
     height: 62px;
     background: white;
     box-sizing: border-box;
@@ -130,6 +132,8 @@ margin: 0;
     text-align: center;
     color: #05A2FA;
     text-decoration: none;
+    margin: 10px;
+    justify-content: center;
 }
 
 .phone:hover {
@@ -138,7 +142,7 @@ margin: 0;
 }
 
 .mail {
-    display: inline-block;
+    display: flex;
     height: 62px;
     background: white;
     box-sizing: border-box;
@@ -152,6 +156,8 @@ margin: 0;
     text-align: center;
     color: #05A2FA;
     text-decoration: none;
+    margin: 10px;
+    justify-content: center;
 }
 
 .mail:hover {

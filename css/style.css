@@ -30,7 +30,7 @@ img {
     border-bottom: 0;
     display: flex;
     align-items: center;
-    margin: 20px;
+    margin: 50px;
 }
 
 .header-container {
@@ -92,7 +92,7 @@ margin: 0;
 .main-content {
     font-size: 18px;
     color: black;
-    width: 540px;
+    width: 500px;
 }
 
 .main-h1 {
