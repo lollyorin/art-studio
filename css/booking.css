@@ -1,0 +1,196 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+img {
+    display: block;
+}
+
+/* шапка */
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    height: 73px;
+    border-bottom: 0;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+
+.header-container {
+    width: 1110px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1;
+    color: rgb(25, 25, 25);
+}
+
+.nav-link {
+color: black;
+text-decoration: none;
+margin-right: 32px;
+border-bottom: 1px solid white;
+}
+
+.nav-link:hover {
+    color: #457b9d;
+    border-bottom: 1px solid #457b9d;
+}
+
+.nav-link:last-child {
+margin: 0;
+}
+
+.header-icon {
+    margin-left: auto;
+    display: flex;
+    text-align: center;
+}
+
+.header-icon-item {
+    margin-left: 25px;
+}
+
+.store:first-child {
+    margin-left: 0;
+}
+
+/* основа */
+
+.main-conteiner {
+    width: 1110px;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    align-items: center;
+    height: 100vh;
+}
+
+.main-content {
+    font-size: 10px;
+    color: black;
+    width: 700px;
+}
+
+.form {
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px #ccc;
+}
+
+.form-box {
+    position: relative;
+    margin: 30px;
+}
+
+.form-label {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    color: #7E868E;
+    transition: 0.3s;
+    pointer-events: none;
+}
+
+.form-input {
+    width: 100%;
+    padding: 0 0 10px 0;
+    border: none;
+    border-bottom: 1px solid #05A2FA;
+    background-color: transparent;
+    outline: none;
+    transition: 0.3s;
+    background: transparent;
+}
+
+
+.form-input:focus {
+border-bottom: 1px solid #404547;
+}
+
+.form-input:focus ~ .form-label,
+.form-input:not(:placeholder-show) ~ .form-label {
+    top: -15px;
+    font-size: 10px;
+    color: #7E868E;
+}
+
+.buttom {
+    display: inline-block;
+    height: 62px;
+    background: white;
+    box-sizing: border-box;
+    border: 1px solid #8ecae6;
+    padding-left: 35px;
+    padding-right: 25px;
+    border-radius: 50px;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 62px;
+    text-align: center;
+    color: #05A2FA;
+    text-decoration: none;
+}
+
+.buttom:hover {
+    opacity: 0.8;
+    color: #457b9d;
+}
+
+/* подвал */
+
+.footer {
+    height: 72px;
+    background: rgb(255, 255, 255);
+    color: #7E868E;
+    display: flex;
+    margin: auto;
+}
+.footer-container {
+    width: 1110px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    /* padding-top: 197px;
+    padding-bottom: 197px; */
+}
+
+.footer-copy {
+    font-size: 14px;
+}
+ 
+.footer-icon {
+    display: flex;
+}
+
+.footer-icon-item {
+    margin-left: 16px;
+}
