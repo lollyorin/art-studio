@@ -98,8 +98,10 @@ margin: 0;
 }
 
 .form {
-    width: 400px;
-    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 10px;
     box-shadow: 0 4px 16px #ccc;
 }
@@ -147,7 +149,7 @@ border-bottom: 1px solid #404547;
     background: white;
     box-sizing: border-box;
     border: 1px solid #8ecae6;
-    padding-left: 35px;
+    padding-left: 25px;
     padding-right: 25px;
     border-radius: 50px;
     font-weight: lighter;
@@ -156,11 +158,13 @@ border-bottom: 1px solid #404547;
     text-align: center;
     color: #05A2FA;
     text-decoration: none;
+    margin: 20px;
 }
 
 .buttom:hover {
     opacity: 0.8;
     color: #457b9d;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 /* подвал */
