@@ -124,10 +124,11 @@ text-align: center;
     height: 110px;
     padding-left: 10px;
     padding-right: 10px;
+    font-weight: lighter;
 }
 
 .buttom {
-    display:inline-block;
+    display:flex;
     justify-content: center;
     height: 62px;
     background: white;
